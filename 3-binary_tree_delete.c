@@ -1,6 +1,6 @@
 #include "binary_trees.h"
 
-binary_tree_t delete(binary_tree_t *node);
+void delete(binary_tree_t *node);
 
 /**
  * binary_tree_delete - delete the tree
@@ -17,7 +17,7 @@ void binary_tree_delete(binary_tree_t *tree)
 	delete(tree);
 }
 
-binary_tree_t delete(binary_tree_t *node)
+void delete(binary_tree_t *node)
 {
 	if (node->left == NULL && node->right == NULL)
 	{
