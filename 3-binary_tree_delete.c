@@ -30,7 +30,16 @@ void delete(binary_tree_t *node)
 		{
 		delete(node->right);
 		}
-	free(node);
+		free(node);
+	}
+	else 
+	{
+		delete(node->right);
+		if (node->left != NULL)
+		{
+		delete(node->left);
+		}
+		free(node);
 	}
 	
 
