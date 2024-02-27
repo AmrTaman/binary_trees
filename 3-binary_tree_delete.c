@@ -32,7 +32,7 @@ void delete(binary_tree_t *node)
 		}
 		free(node);
 	}
-	else 
+	else
 	{
 		delete(node->right);
 		if (node->left != NULL)
@@ -41,6 +41,4 @@ void delete(binary_tree_t *node)
 		}
 		free(node);
 	}
-	
-
 }
