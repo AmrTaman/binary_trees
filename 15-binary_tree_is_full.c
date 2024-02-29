@@ -1,7 +1,7 @@
 #include "binary_trees.h"
 
 /**
- * binary_tree_is_full - checks fullness of a tree
+ * binary_tree_is_full - checks fullness of a tree.
  *
  * @tree: pointer of tree
  *
