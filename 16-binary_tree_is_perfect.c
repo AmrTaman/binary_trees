@@ -5,7 +5,7 @@ size_t binary_tree_size1(const binary_tree_t *tree);
 size_t mypow(unsigned int x, unsigned int n);
 
 /**
- * binary_tree_is_perfect - function that checks if a binary tree is perfect
+ * binary_tree_is_perfect - function that checks if a binary tree is perfect.
  *
  * @tree: binary tree pointer
  *
