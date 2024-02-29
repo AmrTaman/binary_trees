@@ -2,7 +2,7 @@
 
 size_t binary_tree_height1(const binary_tree_t *tree);
 size_t binary_tree_size1(const binary_tree_t *tree);
-
+size_t mypow(unsigned int x,unsigned int n);
 
 /**
  * binary_tree_is_perfect - function that checks if a binary tree is perfect
@@ -19,7 +19,7 @@ int binary_tree_is_perfect(const binary_tree_t *tree)
 	if (tree == NULL)
 		return (0);
 
-	if (binary_tree_size1(tree) == h + 1)
+	if (binary_tree_size1(tree) == (mypow(2, (h + 1))) - 1)
 		return (1);
 	else
 		return (0);
@@ -67,3 +67,22 @@ size_t binary_tree_size1(const binary_tree_t *tree)
 	return (size);
 }
 
+/**
+ * mypow - gives the size of a tree
+ *
+ * @x: first number
+ * @n: second number
+ *
+ * Return: int number 
+ */
+
+size_t mypow(unsigned int x,unsigned int n)
+{
+    unsigned int i; 
+    unsigned int number = 1;
+
+    for (i = 0; i < n; ++i)
+        number *= x;
+
+    return(number);
+}
