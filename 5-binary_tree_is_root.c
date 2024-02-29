@@ -2,9 +2,9 @@
 
 /**
  * binary_tree_is_root - check if the node is root or not
- * 
+ *
  * @node: the node that will be checked
- * 
+ *
  * Return: 1 means the node is root and 0 vice versa
 */
 
