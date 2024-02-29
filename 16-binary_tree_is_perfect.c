@@ -19,7 +19,7 @@ int binary_tree_is_perfect(const binary_tree_t *tree)
 	if (tree == NULL)
 		return (0);
 
-	if (binary_tree_size1(tree) == (pow(2, (h + 1))) - 1)
+	if (binary_tree_size1(tree) == h + 1)
 		return (1);
 	else
 		return (0);
