@@ -73,7 +73,7 @@ size_t binary_tree_size1(const binary_tree_t *tree)
  *@x: first number
  *@n: second number
  *
- *Return: int number 
+ *Return: int number
  */
 
 size_t mypow(unsigned int x, unsigned int n)
@@ -84,5 +84,5 @@ size_t mypow(unsigned int x, unsigned int n)
 	for (i = 0; i < n; ++i)
 		number *= x;
 
-	return(number);
+	return (number);
 }
