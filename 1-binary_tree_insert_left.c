@@ -1,7 +1,7 @@
 #include "binary_trees.h"
 
 /**
- * binary_tree_insert_left - isert lift
+ * binary_tree_insert_left - insert lift
  *
  * @parent: the parent
  * @value: the value
