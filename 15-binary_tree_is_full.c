@@ -1,6 +1,6 @@
 #include "binary_trees.h"
 
-/*
+/**
  * binary_tree_is_full - checks fullness of a tree
  *
  * @tree: pointer of tree
@@ -17,5 +17,5 @@ int binary_tree_is_full(const binary_tree_t *tree)
 	right = binary_tree_is_full(tree->right);
 	if (left == right)
 		return (1);
-	return (0);	
+	return (0);
 }
